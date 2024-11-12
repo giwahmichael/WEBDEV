@@ -1,0 +1,53 @@
+
+
+h1{ text-align: center;
+    background-color: gray
+    border 2px
+
+}
+.narbar ul{background-color: darkgray;
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+border-radius: 50%;
+}
+
+.narbar a{text-decoration: none;
+color: brown;
+display: block;
+padding: 15px;
+text-align: center;}
+
+
+
+.narbar a:hover{background-color: rgb(192, 252, 54);
+color: blue;}
+
+.narbar li{float: left;font-size: 20px;
+}
+.container{
+    border: 2px solid red;overflow:auto;
+}
+
+.dg ul{background-color: darkgray;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 50%;
+    }
+    
+    .dg a{text-decoration: none;
+    color: brown;
+    display: block;
+    padding: 15px;
+    text-align: center;}
+    
+    
+    
+    .dg a:hover{background-color: rgb(192, 252, 54);
+    color: blue;}
+    
+    .dg li{float: left;font-size: 20px;
+    }

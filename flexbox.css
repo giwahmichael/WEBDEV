@@ -1,0 +1,45 @@
+
+ .flex-container{
+    background-color:black;
+    text-align: center;
+   /* width: fit-content;*/
+    padding: 90px;
+    margin: 90px auto ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex-container div{
+    background-color: crimson;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.flex-container .item-1{
+    flex-grow: 2;
+}
+
+
+.container{
+    align-items: center;text-align: center;
+    display: flex;
+    margin: 10px solid black;
+}
+.box{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin: 10vh;
+
+}
+#box-1{
+    background-color: blue;
+}
+#box-2{
+    background-color: green;
+}
+#box-3{
+    background-color: brown;
+}
+#box-4{background-color: crimson;}

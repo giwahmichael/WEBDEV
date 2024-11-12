@@ -1,0 +1,23 @@
+h1{color:rgb(70, 43, 226);text-align: center;}
+
+a:hover{color: rgb(200, 255, 0);
+
+
+}
+nav{
+    background-color: rgb(165, 10, 10);
+    border: 10px; 
+    font-size: 30px;
+    text-align: center;
+
+    border-radius: 0px;
+    
+}
+#img1{float: left;margin-right: 10px;
+    
+}
+#img2{float: right;margin-right: 10px;}
+#box1{border-width: 10px;border height: 10px;}
+div{border:2px solid;height: 75px;overflow: auto;
+}
+*{  color: rgb(1, 1, 10)}

@@ -1,0 +1,53 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    font-size: 6rem;
+   /*
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;*/
+  /*  transition: transform 3s ease-in-out 1s;*/
+  animation-name: slideright;
+  animation-duration:10s;
+  animation-delay: 01s;
+
+    
+
+
+}
+
+/*.box:hover{
+    transform:translatey(200px);
+}*/
+
+
+@keyframes slideleft {
+    from{transform: translatex(200px)}
+}
+
+
+from{transform: translatey(200px)}
+
+    
+
+@keyframes slideright {
+    from{transform: translatey(200px)}
+    
+
+}
+
+@keyframes slideleft {
+    from{transform: translatey(200px)}
+   
+
+}
+
+@keyframes colorboard{
+  0%  {background-color:green;}
+  25%{background-color: yellow;}
+  50%{background-color: blue;}
+  100%{background-color: red;}
+}
